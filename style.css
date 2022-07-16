@@ -94,22 +94,25 @@ button {
     outline: none;
     border: none;
     border-radius: 6px;
-    font-size: 16px;
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block
 }
 
 .no-outline {
-    background-color: #75E6DA;
-    color: #000;
+    background-color: #FFF;
+    color: #164b4b
 
 }
+
 .outline {
- 
-   outline: #e5e7eb;
- 
+    border: none;
+    background: none;
+    outline: 1px solid #FFF;
+    color: #FFF;
+    font-size: 15px;
 
 }
+
 
 /*Info container */
 .info-container {
@@ -173,7 +176,7 @@ button {
  
 
 .call-action {
-    background-color: #3882F6;
+    background-color: #164b4b;
     display: flex;
     width: 640px;
     height: 100px;
@@ -183,9 +186,13 @@ button {
     margin-top: 25px;
     align-self: center;
 }
+ 
 h2 {
     color: #FFF;
 }
+
+
+
 footer {
     position: absolute;        /* for it to disappear under last body element */
     bottom: 0;   
